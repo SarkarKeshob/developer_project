@@ -5,12 +5,12 @@ body{
 /* 1 nav related codes */
 
 nav{ display: flex;
-     width: 100%;
+     width: 90%;
      align-items: center;
      justify-content: space-between;
      margin-left: auto;
-     margin-right: auto;
-     background-color: rgba(23, 23, 23,.05);
+     
+     background-color: rgba(23, 23, 23,.03);
      position: sticky;
     }
 
@@ -37,14 +37,15 @@ nav{ display: flex;
     /* 1) (b) coding the other nav links  */
 
     nav ul {
-        width: 70%;
+        width: 40%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
     }
     nav li{
         list-style: none;
-        margin-right: 35%;
     }
     nav ul a{
         text-decoration: none;
@@ -55,6 +56,7 @@ nav{ display: flex;
     }
     nav ul a:hover{
         font-size: 21px;
+        text-decoration: underline;
     }
     #nav_bar_button{
         width:7em;
@@ -75,4 +77,9 @@ nav{ display: flex;
     .button:hover{
         width: 8em;
         height: 4em;
+    }
+
+    /* header related codes */
+    header{
+        background-color: #FFF8F3;
     }
