@@ -1,3 +1,78 @@
+
 body{
-    background-color: aqua;
+    margin-top: 0px;
 }
+/* 1 nav related codes */
+
+nav{ display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: rgba(23, 23, 23,.05);
+     position: sticky;
+    }
+
+    /* 1) (a) coding the mary */
+    nav h3{width: 30%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+    }
+
+   #title{
+        color: #FD6E0A;
+    }
+    h3 a{
+        color: #181818;
+        text-decoration: none;
+    }
+    h3 a:hover{
+        font-size: 26px;
+    }
+
+    /* 1) (b) coding the other nav links  */
+
+    nav ul {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 35%;
+    }
+    nav ul a{
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #181818;
+    }
+    nav ul a:hover{
+        font-size: 21px;
+    }
+    #nav_bar_button{
+        width:7em;
+        height: 3em;
+        
+    }
+
+    .button{
+        color: white;
+        background-color: #FD6E0A;
+        border: 0px;
+        border-radius: 2px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .button:hover{
+        width: 8em;
+        height: 4em;
+    }
