@@ -9,7 +9,7 @@ nav{ display: flex;
      align-items: center;
      justify-content: space-between;
      margin-left: auto;
-     
+     margin-right: auto;
      background-color: rgba(23, 23, 23,.03);
      position: sticky;
     }
@@ -75,11 +75,56 @@ nav{ display: flex;
         font-family: 'Open Sans', sans-serif;
     }
     .button:hover{
-        width: 8em;
+        width: 1em;
         height: 4em;
     }
 
     /* header related codes */
     header{
         background-color: #FFF8F3;
+        height: 500px;
     }
+
+/* #left{
+        background-image: url("/images/developer.png");
+        position: fixed;
+        top: 2%;
+        left: 2%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        width: 10%;
+    }
+    #middle button{
+        width:10em;
+        height: 2.5em;
+        
+    }
+    #middle{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+#down h4{
+        color:#474747;
+        font-size: 25px;
+}
+
+#down h1{
+        font-size: 45px;
+        color: #181818;
+}
+#down p{
+        width: 70%;
+        color: #757575;
+}
+
+#hardy{
+        width: 100%;
+        height: auto;
+}
+#right{ width: 30%;
+        display: flex;
+        align-items: center;
+} */ 
