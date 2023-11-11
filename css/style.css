@@ -73,58 +73,97 @@ nav{ display: flex;
         font-weight: 600;
         line-height: normal;
         font-family: 'Open Sans', sans-serif;
-    }
-    .button:hover{
-        width: 1em;
-        height: 4em;
+       
     }
 
     /* header related codes */
     header{
         background-color: #FFF8F3;
-        height: 500px;
+        height: 529px;
+    }
+    .banner{
+      display: inline;
+      float: right;
     }
 
-/* #left{
-        background-image: url("/images/developer.png");
-        position: fixed;
-        top: 2%;
-        left: 2%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 400px;
-        width: 10%;
-    }
-    #middle button{
-        width:10em;
-        height: 2.5em;
-        
-    }
-    #middle{
-        width: 50%;
-        margin: 0 auto;
-        display: flex;
-    }
-
-#down h4{
-        color:#474747;
-        font-size: 25px;
-}
-
-#down h1{
-        font-size: 45px;
-        color: #181818;
-}
-#down p{
-        width: 70%;
-        color: #757575;
-}
-
-#hardy{
-        width: 100%;
-        height: auto;
-}
-#right{ width: 30%;
+    #seperate{
         display: flex;
         align-items: center;
-} */ 
+        justify-content: space-between;
+        margin-top: 2.5em;
+    }
+
+    #left{
+        height: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #left img{
+        height: 100%;
+    }
+
+    #middle{
+        width: 35%;
+        line-height: 1.2em;
+    }
+
+
+    #middle h4{
+        color: #474747;
+        font-family: Open Sans;
+        font-size: 1.8em;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+
+    #middle h1{
+        color: #181818;
+        font-family: Open Sans;
+        font-size: 3.5em;
+        font-weight: 700;
+        margin-top: 1%;
+    }
+
+    #middle p{
+        color: #757575;
+        font-family: Open Sans;
+        font-size: .8em;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    #button{
+        margin-top: 2.5em;
+    }
+    
+    #button #download{
+        width: 9em;
+        height: 3.5em;
+        margin-right: 3em;
+    }
+    #button #contact{
+        width: 8em;
+        height: 3.5em;
+        background-color:  white;
+        border-radius: 5px;
+        border: 1px solid #FD6E0A;
+        color: #FD6E0A;
+
+    }
+
+    #right{
+        background-image: url("/images/header_bg.png");
+        background-size: cover;
+        width: 40%;
+        display: flex;
+        justify-content: end;
+    }
+    #hardy{
+        height: 400px;
+    }
+
+
+
+
