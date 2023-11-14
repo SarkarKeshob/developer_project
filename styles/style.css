@@ -156,7 +156,7 @@ nav{ display: flex;
     }
 
     #right{
-        background-image: url("/images/header_bg.png");
+        background-image: url("../images/header_bg.png");
         background-size: cover;
         width: 40%;
         display: flex;
