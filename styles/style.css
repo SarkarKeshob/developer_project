@@ -322,3 +322,11 @@ nav{ display: flex;
     height: 3em;
     width: 7em;
    }
+
+   i{
+    color: #FFF8F3;
+   }
+   #contact i{
+    color: #FD6E0A;
+    
+   }
