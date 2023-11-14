@@ -271,3 +271,54 @@ nav{ display: flex;
    .last{
     border-bottom: 0px;
    }
+
+   /* footer */
+
+   footer{
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+  
+   }
+   footer div{
+    width: 30%;
+    margin: 6em auto;
+    
+   }
+   .title{
+    color: #181818;
+    font-size: 1.8em;
+   }
+   .icons{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 1.8em 0;
+   }
+   /* .icons a{
+    margin: 0 0.2em;
+   } */
+   .form{
+    display: block;
+    margin: 1em 0;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    width: 90%;
+   }
+
+   #comment input{
+    height: 2.5em;
+    
+    
+   }
+
+   textarea{
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+   }
+   #comment button{
+    height: 3em;
+    width: 7em;
+   }
